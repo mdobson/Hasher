@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5B51879192668A800CD901F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B51878192668A800CD901F /* Foundation.framework */; };
+		F5B5187B192668A800CD901F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B5187A192668A800CD901F /* CoreGraphics.framework */; };
+		F5B5187D192668A800CD901F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B5187C192668A800CD901F /* UIKit.framework */; };
+		F5B51883192668A800CD901F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5B51881192668A800CD901F /* InfoPlist.strings */; };
+		F5B51885192668A800CD901F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B51884192668A800CD901F /* main.m */; };
+		F5B51889192668A800CD901F /* MSDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B51888192668A800CD901F /* MSDAppDelegate.m */; };
+		F5B5188C192668A800CD901F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B5188A192668A800CD901F /* Main.storyboard */; };
+		F5B5188F192668A800CD901F /* MSDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B5188E192668A800CD901F /* MSDViewController.m */; };
+		F5B51891192668A800CD901F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B51890192668A800CD901F /* Images.xcassets */; };
+		F5B51898192668A800CD901F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B51897192668A800CD901F /* XCTest.framework */; };
+		F5B51899192668A800CD901F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B51878192668A800CD901F /* Foundation.framework */; };
+		F5B5189A192668A800CD901F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B5187C192668A800CD901F /* UIKit.framework */; };
+		F5B518A2192668A800CD901F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5B518A0192668A800CD901F /* InfoPlist.strings */; };
+		F5B518A4192668A800CD901F /* HasherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B518A3192668A800CD901F /* HasherTests.m */; };
+		F5B518AE1926698700CD901F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B518AD1926698700CD901F /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B5189B192668A800CD901F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B5186D192668A800CD901F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B51874192668A800CD901F;
+			remoteInfo = Hasher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5B51875192668A800CD901F /* Hasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B51878192668A800CD901F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5B5187A192668A800CD901F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5B5187C192668A800CD901F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5B51880192668A800CD901F /* Hasher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hasher-Info.plist"; sourceTree = "<group>"; };
+		F5B51882192668A800CD901F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5B51884192668A800CD901F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5B51886192668A800CD901F /* Hasher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hasher-Prefix.pch"; sourceTree = "<group>"; };
+		F5B51887192668A800CD901F /* MSDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDAppDelegate.h; sourceTree = "<group>"; };
+		F5B51888192668A800CD901F /* MSDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDAppDelegate.m; sourceTree = "<group>"; };
+		F5B5188B192668A800CD901F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5B5188D192668A800CD901F /* MSDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDViewController.h; sourceTree = "<group>"; };
+		F5B5188E192668A800CD901F /* MSDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDViewController.m; sourceTree = "<group>"; };
+		F5B51890192668A800CD901F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5B51896192668A800CD901F /* HasherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HasherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B51897192668A800CD901F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F5B5189F192668A800CD901F /* HasherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HasherTests-Info.plist"; sourceTree = "<group>"; };
+		F5B518A1192668A800CD901F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5B518A3192668A800CD901F /* HasherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HasherTests.m; sourceTree = "<group>"; };
+		F5B518AD1926698700CD901F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B51872192668A800CD901F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B518AE1926698700CD901F /* Security.framework in Frameworks */,
+				F5B5187B192668A800CD901F /* CoreGraphics.framework in Frameworks */,
+				F5B5187D192668A800CD901F /* UIKit.framework in Frameworks */,
+				F5B51879192668A800CD901F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B51893192668A800CD901F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B51898192668A800CD901F /* XCTest.framework in Frameworks */,
+				F5B5189A192668A800CD901F /* UIKit.framework in Frameworks */,
+				F5B51899192668A800CD901F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5B5186C192668A800CD901F = {
+			isa = PBXGroup;
+			children = (
+				F5B5187E192668A800CD901F /* Hasher */,
+				F5B5189D192668A800CD901F /* HasherTests */,
+				F5B51877192668A800CD901F /* Frameworks */,
+				F5B51876192668A800CD901F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B51876192668A800CD901F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B51875192668A800CD901F /* Hasher.app */,
+				F5B51896192668A800CD901F /* HasherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B51877192668A800CD901F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5B518AD1926698700CD901F /* Security.framework */,
+				F5B51878192668A800CD901F /* Foundation.framework */,
+				F5B5187A192668A800CD901F /* CoreGraphics.framework */,
+				F5B5187C192668A800CD901F /* UIKit.framework */,
+				F5B51897192668A800CD901F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5B5187E192668A800CD901F /* Hasher */ = {
+			isa = PBXGroup;
+			children = (
+				F5B51887192668A800CD901F /* MSDAppDelegate.h */,
+				F5B51888192668A800CD901F /* MSDAppDelegate.m */,
+				F5B5188A192668A800CD901F /* Main.storyboard */,
+				F5B5188D192668A800CD901F /* MSDViewController.h */,
+				F5B5188E192668A800CD901F /* MSDViewController.m */,
+				F5B51890192668A800CD901F /* Images.xcassets */,
+				F5B5187F192668A800CD901F /* Supporting Files */,
+			);
+			path = Hasher;
+			sourceTree = "<group>";
+		};
+		F5B5187F192668A800CD901F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5B51880192668A800CD901F /* Hasher-Info.plist */,
+				F5B51881192668A800CD901F /* InfoPlist.strings */,
+				F5B51884192668A800CD901F /* main.m */,
+				F5B51886192668A800CD901F /* Hasher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5B5189D192668A800CD901F /* HasherTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B518A3192668A800CD901F /* HasherTests.m */,
+				F5B5189E192668A800CD901F /* Supporting Files */,
+			);
+			path = HasherTests;
+			sourceTree = "<group>";
+		};
+		F5B5189E192668A800CD901F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5B5189F192668A800CD901F /* HasherTests-Info.plist */,
+				F5B518A0192668A800CD901F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B51874192668A800CD901F /* Hasher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B518A7192668A800CD901F /* Build configuration list for PBXNativeTarget "Hasher" */;
+			buildPhases = (
+				F5B51871192668A800CD901F /* Sources */,
+				F5B51872192668A800CD901F /* Frameworks */,
+				F5B51873192668A800CD901F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hasher;
+			productName = Hasher;
+			productReference = F5B51875192668A800CD901F /* Hasher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5B51895192668A800CD901F /* HasherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B518AA192668A800CD901F /* Build configuration list for PBXNativeTarget "HasherTests" */;
+			buildPhases = (
+				F5B51892192668A800CD901F /* Sources */,
+				F5B51893192668A800CD901F /* Frameworks */,
+				F5B51894192668A800CD901F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B5189C192668A800CD901F /* PBXTargetDependency */,
+			);
+			name = HasherTests;
+			productName = HasherTests;
+			productReference = F5B51896192668A800CD901F /* HasherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B5186D192668A800CD901F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MSD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matthew Dobson";
+				TargetAttributes = {
+					F5B51895192668A800CD901F = {
+						TestTargetID = F5B51874192668A800CD901F;
+					};
+				};
+			};
+			buildConfigurationList = F5B51870192668A800CD901F /* Build configuration list for PBXProject "Hasher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5B5186C192668A800CD901F;
+			productRefGroup = F5B51876192668A800CD901F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B51874192668A800CD901F /* Hasher */,
+				F5B51895192668A800CD901F /* HasherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B51873192668A800CD901F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B51891192668A800CD901F /* Images.xcassets in Resources */,
+				F5B51883192668A800CD901F /* InfoPlist.strings in Resources */,
+				F5B5188C192668A800CD901F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B51894192668A800CD901F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B518A2192668A800CD901F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B51871192668A800CD901F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B51885192668A800CD901F /* main.m in Sources */,
+				F5B51889192668A800CD901F /* MSDAppDelegate.m in Sources */,
+				F5B5188F192668A800CD901F /* MSDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B51892192668A800CD901F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B518A4192668A800CD901F /* HasherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B5189C192668A800CD901F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B51874192668A800CD901F /* Hasher */;
+			targetProxy = F5B5189B192668A800CD901F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5B51881192668A800CD901F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B51882192668A800CD901F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5B5188A192668A800CD901F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B5188B192668A800CD901F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5B518A0192668A800CD901F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B518A1192668A800CD901F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5B518A5192668A800CD901F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5B518A6192668A800CD901F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B518A8192668A800CD901F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hasher/Hasher-Prefix.pch";
+				INFOPLIST_FILE = "Hasher/Hasher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5B518A9192668A800CD901F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hasher/Hasher-Prefix.pch";
+				INFOPLIST_FILE = "Hasher/Hasher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F5B518AB192668A800CD901F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hasher.app/Hasher";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hasher/Hasher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HasherTests/HasherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F5B518AC192668A800CD901F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hasher.app/Hasher";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hasher/Hasher-Prefix.pch";
+				INFOPLIST_FILE = "HasherTests/HasherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B51870192668A800CD901F /* Build configuration list for PBXProject "Hasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B518A5192668A800CD901F /* Debug */,
+				F5B518A6192668A800CD901F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B518A7192668A800CD901F /* Build configuration list for PBXNativeTarget "Hasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B518A8192668A800CD901F /* Debug */,
+				F5B518A9192668A800CD901F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5B518AA192668A800CD901F /* Build configuration list for PBXNativeTarget "HasherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B518AB192668A800CD901F /* Debug */,
+				F5B518AC192668A800CD901F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B5186D192668A800CD901F /* Project object */;
+}
